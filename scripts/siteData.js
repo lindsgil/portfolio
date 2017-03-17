@@ -20,7 +20,6 @@ ExampleSite.prototype.toHtml = function() {
 };
 
 exampleSiteData.forEach(function(siteExampleObject) {
-  // REVIEW: Take a look at this forEach method; This may be the first time we've seen it.
   sites.push(new ExampleSite(siteExampleObject));
 });
 
@@ -29,3 +28,4 @@ exampleSiteData.forEach(function(a) {
 });
 
 ExampleSite();
+exampleSiteData();
