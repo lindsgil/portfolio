@@ -19,6 +19,7 @@ a:focus {
   text-decoration: none;
 }
 div.about-box {
+  display: none;
   font-family: Helvetica bold;
   color: black;
   text-align: center;
