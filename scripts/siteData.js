@@ -1,20 +1,31 @@
 'use strict';
 
-var photos = [];
+var sites = [];
 
-function Photo (par) {
+function ExampleSite (par) {
   this.title = par.title;
   this.category = par.category;
-  this.picUrl = par.picUrl;
+  this.siteUrl = par.siteUrl;
   this.published = par.published;
   this.info = par.info;
 };
 
-Photo.prototype.toHtml = function() {
-  var $newPhoto = $('div.temporary').clone();
-  $newPhoto.removeClass('temporary');
-  $newPhoto.find('h1').html(this.title);
-  $newPhoto.find('img').attr('src', this.picUrl);
-  $newPhoto.find('p').html(this.info);
-  return $newPhoto;
+ExampleSite.prototype.toHtml = function() {
+  var $newExampleSite = $('div.temporary').clone();
+  $newExampleSite.removeClass('temporary');
+  $newExampleSite.find('h1').html(this.title);
+  $newExampleSite.find('a').attr('href', this.siteUrl);
+  $newExampleSite.find('p').html(this.info);
+  return $newExampleSite;
 };
+
+exampleSiteData.forEach(function(siteExampleObject) {
+  // REVIEW: Take a look at this forEach method; This may be the first time we've seen it.
+  sites.push(new ExampleSite(siteExampleObject));
+});
+
+exampleSiteData.forEach(function(a) {
+  $('#site-display').append(a.toHtml());
+});
+
+ExampleSite();
