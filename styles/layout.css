@@ -6,17 +6,19 @@ li.site-nav {
   font-family: Helvetica bold;
   text-decoration: none;
   color: black;
-
 }
 
 a:link {
   text-decoration: none;
+  color: black;
 }
 a:visited {
   text-decoration: none;
+  color: black;
 }
 a:focus {
   text-decoration: none;
+  color: black;
 }
 div.about-box {
   display: none;

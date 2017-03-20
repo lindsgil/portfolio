@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
+    <!--Add Script tag for Handlebars.js-->
+    <script  id="work-display-template" type="text/x-handlebars-template">
+      <article class="clearfix" data-title="{{title}}" data-category="{{category}}">
+        <header>
+          <h1>{{title}}</h1>
+          <div class="linkline">
+            <p>{{siteUrl}}</p>
+          </div>
+        </header>
+        <section class="site-info">{{{info}}}</section>
+    </article>
+    </script>
   </head>
   <body>
     <!--START: top nav bar menu with links and social icons-->
@@ -34,14 +46,13 @@
     <!--START: Sample work page for portfolio -->
     <section id="site-display">
       <div class="temporary">
-        <a href="#">Site</a>
-        <h1>Title</h1>
-        <p>Information</p>
       </div>
     </section>
     <!--START: Contact page for portfolio -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--add script tag to link handlebars.js under jquery link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
     <script type="text/javascript" src="scripts/data.js"></script>
     <script type="text/javascript" src="scripts/siteData.js"></script>
   </body>

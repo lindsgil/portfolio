@@ -1,3 +1,6 @@
+body {
+  background-color: #D3D3D3;
+}
 .main-nav ul {
   display: block;
   padding: 0;
@@ -6,6 +9,9 @@
 }
 li {
   display: inline;
+  text-align: center;
+  background-color: grey;
+  opacity: 0.7;
   border: 2px solid black;
 }
 li.site-nav {
