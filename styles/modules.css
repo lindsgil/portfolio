@@ -1,8 +1,20 @@
 .main-nav ul {
-  display: none;
+  display: block;
   padding: 0;
   list-style: none;
   clear: both;
+}
+li {
+  display: inline;
+  border: 2px solid black;
+}
+li.site-nav {
+  float: left;
+  padding: 10px 10px 10px 10px;
+}
+li.social-icons {
+  float: right;
+  padding: 10px 10px 10px 10px;
 }
 
 .main-nav:hover ul {
@@ -16,5 +28,18 @@ button {
 @media only screen and (max-width: 500px) {
   button {
     display: inline-block;
+  }
+  .main-nav ul {
+    display: none;
+  }
+  li.site-nav {
+    display: block;
+    float: none;
+    padding: 10px 10px 10px 10px;
+  }
+  li.social-icons {
+    display: block;
+    float: none;
+    padding: 10px 10px 10px 10px;
   }
 }
