@@ -24,6 +24,7 @@ function Site (opts) {
   this.siteUrl = opts.siteUrl;
   this.info = opts.info;
   this.published = opts.published;
+  this.classMarker = opts.classMarker;
 };
 //
 Site.prototype.toHtml = function() {
@@ -37,7 +38,8 @@ exampleSiteData.forEach(function(obj) {
 });
 
 sites.forEach(function(a) {
-  $('#site-display').append(a.toHtml());
+  $('' + a.classMarker).append(a.toHtml());
+  console.log('' + a.classMarker);
 });
 
 showAboutBox.handleAboutNav();

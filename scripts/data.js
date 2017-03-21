@@ -3,6 +3,7 @@
 var exampleSiteData = [
   {
     title: 'Bus Mall',
+    classMarker: 'busmall',
     category: 'data',
     siteUrl: 'https://github.com/lindsgil/bus-mall',
     info: 'Project for Code Fellows 201',
@@ -10,6 +11,7 @@ var exampleSiteData = [
   },
   {
     title: 'Salmon Cookies',
+    classMarker: 'salmon-cookies',
     category: 'data',
     siteUrl: 'https://github.com/lindsgil/cookie-stand',
     info: 'Completed for Code Fellows 201 Course',
@@ -17,6 +19,7 @@ var exampleSiteData = [
   },
   {
     title: 'Fight Code',
+    classMarker: 'fight-code',
     category: 'game',
     siteUrl: 'https://github.com/ChristopherSClosser/fight-code',
     info: 'Final Project for Code Fellows 201',
@@ -24,6 +27,7 @@ var exampleSiteData = [
   },
   {
     title: 'Milkway',
+    classMarker: 'milkway',
     category: 'photo',
     siteUrl: 'images/Milkway1.jpg',
     info: 'Taken Summer 2016',
@@ -31,6 +35,7 @@ var exampleSiteData = [
   },
   {
     title: 'Cari Gill',
+    classMarker: 'cari-gill',
     category: 'photo',
     siteUrl: 'images/033_33.jpg',
     info: 'Taken Summer 2016',
@@ -38,6 +43,7 @@ var exampleSiteData = [
   },
   {
     title: 'Rachel Hubbard',
+    classMarker: 'rachel-hubbard',
     category: 'photo',
     siteUrl: 'images/dreemy.jpg',
     info: 'Taken Summer 2015',
