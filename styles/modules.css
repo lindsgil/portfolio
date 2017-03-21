@@ -1,8 +1,28 @@
+
 .main-nav ul {
-  display: none;
+  display: block;
   padding: 0;
   list-style: none;
   clear: both;
+}
+.about-box {
+clear: both;
+}
+
+li {
+  display: block;
+  text-align: center;
+  background-color: none;
+}
+li.site-nav {
+  float: left;
+  display: block;
+  padding: 10px 10px 10px 10px;
+}
+li.social-icons {
+  float: right;
+  display: block;
+  padding: 10px 10px 10px 10px;
 }
 
 .main-nav:hover ul {
@@ -16,5 +36,31 @@ button {
 @media only screen and (max-width: 500px) {
   button {
     display: inline-block;
+  }
+  .main-nav ul {
+    display: none;
+  }
+  div.main-nav {
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background: white;
+    z-index: 9;
+    display: inline-block;
+  }
+  li.site-nav {
+    display: block;
+    float: none;
+    padding: 10px 10px 10px 10px;
+    z-index: 9999999;
+  }
+  li.social-icons {
+    display: block;
+    float: none;
+    padding: 10px 10px 10px 10px;
+    z-index: 999999;
   }
 }
