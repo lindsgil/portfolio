@@ -22,6 +22,13 @@ section#site-display {
   margin-top: 150px;
   background-color: white;
 }
+
+.projects {
+  width: 500px;
+  height: 500px;
+  display: block;
+}
+
 li.site-nav {
   font-family: Helvetica bold;
   text-decoration: none;
