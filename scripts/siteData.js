@@ -6,6 +6,7 @@ var showAboutBox = {};
 showAboutBox.handleAboutNav = function() {
   $('#about-nav').on('click', function() {
     $('.about-box').css('display', 'block');
+    $('section#site-display').fadeOut();
   });
 };
 
