@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "setting up server.js file for portfolio class-07",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindsgil/portfolio.git"
+  },
+  "keywords": [
+    "server.js",
+    "class-07",
+    "portfolio"
+  ],
+  "author": "Lindsay Gilbert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lindsgil/portfolio/issues"
+  },
+  "homepage": "https://github.com/lindsgil/portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

@@ -57,12 +57,12 @@ Site.fetchAll = function() {
   }
 }
 
-exampleSiteData.forEach(function(obj) {
-  sites.push(new Site(obj));
-});
-
-sites.forEach(function(a) {
-  $('#site-display').append(a.toHtml());
-});
+// exampleSiteData.forEach(function(obj) {
+//   sites.push(new Site(obj));
+// });
+//
+// sites.forEach(function(a) {
+//   $('#site-display').append(a.toHtml());
+// });
 
 showAboutBox.handleAboutNav();
