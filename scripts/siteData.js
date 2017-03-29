@@ -1,5 +1,6 @@
 'use strict';
 
+(function(module) {
 var sites = [];
 var showAboutBox = {};
 
@@ -33,7 +34,7 @@ Site.prototype.toHtml = function() {
 };
 
 Site.loadAll = function(rawData) {
-  rawData.forEach(function(el) {
+  rawData.map(function(el) {
     Site.all.push(new Site(el));
   })
 }
@@ -58,3 +59,4 @@ Site.fetchAll = function() {
 
 
 showAboutBox.handleAboutNav();
+})(window);
