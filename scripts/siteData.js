@@ -24,9 +24,6 @@ function Site (opts) {
   this.siteUrl = opts.siteUrl;
   this.info = opts.info;
   this.published = opts.published;
-}
-
-Site.all = [];
 //
 Site.prototype.toHtml = function() {
   let templateRender = Handlebars.compile($('#work-display-template').text());
@@ -62,7 +59,8 @@ exampleSiteData.forEach(function(obj) {
 });
 
 sites.forEach(function(a) {
-  $('#site-display').append(a.toHtml());
+  $('' + a.classMarker).append(a.toHtml());
+  console.log('' + a.classMarker);
 });
 
 showAboutBox.handleAboutNav();
