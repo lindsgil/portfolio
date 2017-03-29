@@ -24,14 +24,35 @@ function Site (opts) {
   this.siteUrl = opts.siteUrl;
   this.info = opts.info;
   this.published = opts.published;
-  this.classMarker = opts.classMarker;
-};
 //
 Site.prototype.toHtml = function() {
-  var source = $('#work-display-template').html();
-  var templateRender = Handlebars.compile(source);
+  let templateRender = Handlebars.compile($('#work-display-template').text());
   return templateRender(this);
 };
+
+Site.loadAll = function(rawData) {
+  rawData.forEach(function(el) {
+    Site.all.push(new Site(el));
+  })
+}
+
+Site.fetchAll = function() {
+  if (localStorage.rawData) {
+
+    Site.loadAll(JSON.parse(localStorage.rawData));
+  } else {
+    $.getJSON('/data/portfolioData.json', function(response) {
+      localStorage.setItem('rawData', JSON.stringify(response));
+      Site.loadAll(response);
+    })
+    .done(function() {
+      console.log('second success');
+    })
+    .fail(function(err) {
+      console.log('error', err);
+    });
+  }
+}
 
 exampleSiteData.forEach(function(obj) {
   sites.push(new Site(obj));
