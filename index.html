@@ -9,17 +9,18 @@
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
     <!--Add Script tag for Handlebars.js-->
-    <script  id="work-display-template" type="text/x-handlebars-template">
+    <script  id="work-display-template" type="text/x-handlebars-template"></script>
+      <header>
       <article class="clearfix" data-title="{{title}}" data-category="{{category}}">
-        <header>
+
           <h1>{{title}}</h1>
           <div class="linkline">
             <p>{{siteUrl}}</p>
           </div>
-        </header>
+
         <section class="site-info">{{{info}}}</section>
     </article>
-    </script>
+    </header>
   </head>
   <body>
     <!--START: top nav bar menu with links and social icons-->
