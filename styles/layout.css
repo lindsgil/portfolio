@@ -35,7 +35,7 @@ li.site-nav {
   color: black;
 }
 
-a:link {
+/*a:link {
   text-decoration: none;
   color: black;
 }
@@ -47,7 +47,8 @@ a:visited {
 a:focus {
   text-decoration: none;
   color: black;
-}
+}*/
+
 div.about-box {
   display: none;
   font-family: Helvetica bold;
