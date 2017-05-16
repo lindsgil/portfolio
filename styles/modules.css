@@ -6,21 +6,58 @@
   border: none !important;
 }
 
+.main-navbar{
+  z-index: 999999;
+}
+/*#name-logo {
+  font-size: 2vw;
+  font-family: Helvetica;
+  color: #ffffff;
+  float: left;
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  margin-right: 1vw;
+  background-color: none;
+  z-index: 999999;
+}*/
+a.site-nav {
+  text-decoration: none !important;
+  color: #ffffff !important;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 3vw;
+
+}
+
 li.site-nav {
   display: block;
+  position: relative;
   text-align: center;
   float: right;
   padding: 1vw;
   margin: auto;
   margin-right: 1vw;
   font-size: 1vw;
-  color: #000000;
-  font-family: Helvetica;
+  color: #ffffff !important;
+  font-family: Helvetica Bold;
   background-color: none;
+  z-index: 999999;
 }
 
 .main-nav:hover ul {
   display: block;
+}
+.hero-image {
+  width: 100%;
+  top: 0;
+  left: 0;
+  clip: rect(0px, 3000px, 850px, 0px);
+  position: fixed;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0 0 0 0;
 }
 
 button {
