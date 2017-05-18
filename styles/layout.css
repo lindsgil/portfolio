@@ -35,6 +35,11 @@ li.site-nav {
   color: black;
 }
 
+h1.work-header {
+  font-family: Helvetica bold;
+  color: #940E8E;
+}
+
 /*a:link {
   text-decoration: none;
   color: black;

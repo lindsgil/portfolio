@@ -9,6 +9,11 @@
 .main-navbar{
   z-index: 999999;
 }
+
+.work-header-cont {
+  position: relative;
+  margin: 0 auto;
+}
 /*#name-logo {
   font-size: 2vw;
   font-family: Helvetica;
