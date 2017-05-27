@@ -1,4 +1,9 @@
-
+div.header-image {
+  background-image: url('../images/038_38.JPG');
+  background-repeat: no-repeat;
+  height: 70vw;
+  width: 100%;
+}
 
 .navbar-default {
   height: 5vw;
@@ -36,6 +41,14 @@ a.site-nav {
 
 }
 
+h1.work-header {
+  text-decoration: none !important;
+  color: #940E8E !important;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 10vw;
+}
+
 li.site-nav {
   display: block;
   position: relative;
@@ -53,6 +66,21 @@ li.site-nav {
 
 .main-nav:hover ul {
   display: block;
+}
+
+img.gall {
+  height: 20vw;
+}
+
+button.gallery-code {
+  background-color: #940E8E;
+  color: #ffffff;
+  display: inline;
+  float: none;
+}
+a.btn-gal-txt {
+  color: #ffffff;
+  text-decoration: none !important;
 }
 .hero-image {
   width: 100%;

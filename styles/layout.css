@@ -1,6 +1,10 @@
 * {
   font-family: Helvetica;
 }
+.gallery-still {
+  height: 10vw;
+  width: 10vw;
+}
 div.main-nav {
   left: 0;
   top: 0;
@@ -33,11 +37,6 @@ li.site-nav {
   font-family: Helvetica bold;
   text-decoration: none;
   color: black;
-}
-
-h1.work-header {
-  font-family: Helvetica bold;
-  color: #940E8E;
 }
 
 /*a:link {
