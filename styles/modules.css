@@ -1,8 +1,9 @@
 div.header-image {
   background-image: url('../images/038_38.JPG');
   background-repeat: no-repeat;
-  height: 70vw;
+  height: 55vw;
   width: 100%;
+  -webkit-box-sizing: content-box !important;
 }
 
 .navbar-default {
@@ -114,6 +115,15 @@ button {
 }
 .d-block {
   height: 100%;
+}
+@media only screen and (min-width: 1000px) {
+  div.header-image {
+    background-image: url('../images/038_38.JPG');
+    background-repeat: no-repeat;
+    height: 55vw;
+    width: 100%;
+    -webkit-box-sizing: content-box !important;
+  }
 }
 @media only screen and (max-width: 500px) {
   button {
