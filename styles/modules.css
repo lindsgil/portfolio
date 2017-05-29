@@ -1,20 +1,20 @@
-div.header-image {
+section.header-image {
   background-image: url('../images/038_38.JPG');
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   background-repeat: no-repeat;
   height: 55vw;
-  -webkit-box-sizing: content-box !important;
+  width: 100%;
 }
-
-.container {
-  width: 100% !important;
-  float: none !important;
-}
-.col-md-12 {
-  float: none !important;
+ul.top-site-nav {
+  margin-top: 0;
 }
 
 .navbar-default {
   height: 5vw;
+  margin-top: 0;
   background-color: #ffffff !important;
   border: none !important;
 }
@@ -29,6 +29,7 @@ a.site-nav {
   font-family: Helvetica;
   font-weight: bold;
   font-size: 3vw;
+  margin-top: 0;
 
 }
 
@@ -38,6 +39,11 @@ h1.work-header {
   font-family: Helvetica;
   font-weight: bold;
   font-size: 10vw;
+  margin-top: 0;
+}
+
+ul {
+  margin-top: 0;
 }
 
 li.site-nav {
@@ -47,6 +53,7 @@ li.site-nav {
   float: right;
   padding: 1vw;
   margin: auto;
+  margin-top: 0;
   margin-right: 1vw;
   font-size: 1vw;
   color: #ffffff !important;
@@ -54,10 +61,43 @@ li.site-nav {
   background-color: none;
   z-index: 999999;
 }
+section.work-flow {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+  overflow: visible;
+  display: block;
+  position: relative;
+}
+div.gallery-cont{
+  background-image: url('../images/editing.jpeg');
+  margin-top: 60vw;
+  position: relative;
+  height: 30vw;
+  width: 100%;
+  overflow: scroll;
+  background-repeat: no-repeat;
+}
 
+div.gallery-cont-2{
+  background-color: rgba(128, 29, 81, 0.8);
+  margin-top: 10vw;
+  position: relative;
+  height: 30vw;
+  width: 100%;
+  overflow: scroll;
+  background-repeat: no-repeat;
+}
+
+div.gallery-still {
+  float: right;
+  display: block;
+}
 
 img.gall {
   height: 20vw;
+  float: right;
 }
 
 button.gallery-code {
@@ -74,47 +114,4 @@ a.btn-gal-txt {
 button {
   display: none;
   float: right;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: 40vw !important;
-}
-
-.carousel-control-next {
-  color: #ffffff;
-}
-.d-block {
-  height: 100%;
-}
-@media only screen and (max-width: 500px) {
-  button {
-    display: inline-block;
-  }
-  .main-nav ul {
-    display: none;
-  }
-  div.main-nav {
-    left: 0;
-    top: 0;
-    margin: 0 auto;
-    position: fixed;
-    height: 100px;
-    width: 100%;
-    background: white;
-    z-index: 9;
-    display: inline-block;
-  }
-  li.site-nav {
-    display: block;
-    float: none;
-    padding: 10px 10px 10px 10px;
-    z-index: 9999999;
-  }
-  li.social-icons {
-    display: block;
-    float: none;
-    padding: 10px 10px 10px 10px;
-    z-index: 999999;
-  }
 }

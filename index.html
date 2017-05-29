@@ -2,15 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Portfolio</title>
+    <title>Lindsay Gilbert</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" href="vendor/styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
     <!-- Latest compiled and minified CSS -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <!--Add Script tag for Handlebars.js-->
     <!-- <script  id="work-display-template" type="text/x-handlebars-template">
       <article class="clearfix" data-title="{{title}}" data-category="{{category}}">
@@ -27,39 +25,64 @@
   <body>
     <!--START: top nav bar menu with links and social icons-->
     <!--START: header hero image under nav bar for title -->
-    <div class="header-image">
-      <button type="button" class="hamburger" name="button-menu">&#9776</button>
-      <ul>
+    <section class="header-image">
+      <ul class="top-site-nav">
       <!-- <li class="site-nav-left" id="name-logo">Linds</li> -->
         <li class="site-nav" id="contact-nav"><a href="#" class="site-nav" id="contact-nav">// Contact</a></li>
         <li class="site-nav" id="work-nav"><a href="#" class="site-nav" id="work-nav">// Work</a></li>
         <li class="site-nav" id="about-nav"><a href="#" class="site-nav" id="about-nav">// About</a></li>
       </ul>
-      <div class="hero-text-box">
-        <h1 class="hero-image-text">Hello</h1>
-      </div>
-    </div>
+    </section>
     <!--START: Work header for gallery display -->
     <!--START: Single row gallery display -->
-    <div class= "container gallery-cont">
-      <div class = "row">
-        <div class= "col-xs-12 col-md-9">
-          <h1 class="gallery-header">Portfolio Site</h1>
-          <p class="gallery-p">This is a site designed and developed for a Copy-Editor at Starbucks.</p>
-          <button class="gallery-code"><a href="http://github.com/lindsgil" class="gal-btn-txt">Check Out The Code</a></button>
-          <button class="gallery-code"><a href="http://sharonfrajlich.com" class="gal-btn-txt">Check Out The Site</a></button>
-        </div>
-        <div class="col-xs-12 col-md-3">
-          <div class="gallery-still">
-            <img src="/images/sharonsite.png" class="gall">
-          </div>
+    <section class= "work-flow">
+      <div class="gallery-cont">
+        <h1 class="gallery-header">Portfolio Site</h1>
+        <p class="gallery-p">This is a site designed and developed for a Copy-Editor at Starbucks.</p>
+        <button class="gallery-code"><a href="http://github.com/lindsgil" class="gal-btn-txt">Check Out The Code</a></button>
+        <button class="gallery-code"><a href="http://sharonfrajlich.com" class="gal-btn-txt">Check Out The Site</a></button>
+        <div class="gallery-still">
+          <img src="/images/sharonsite.png" class="gall">
         </div>
       </div>
-    </div>
-
+      <div class="gallery-cont-2">
+        <h1 class="gallery-header">Dinner And A Movie</h1>
+        <p class="gallery-p">Web App</p>
+        <button class="gallery-code"><a href="http://github.com/lindsgil" class="gal-btn-txt">Check Out The Code</a></button>
+        <button class="gallery-code"><a href="http://sharonfrajlich.com" class="gal-btn-txt">Check Out The Site</a></button>
+        <div class="gallery-still">
+          <img src="/images/sharonsite.png" class="gall">
+        </div>
+      </div>
+      <div class="gallery-cont-2">
+        <h1 class="gallery-header">Business Time</h1>
+        <p class="gallery-p">Back-end of an iOS app</p>
+        <button class="gallery-code"><a href="http://github.com/lindsgil" class="gal-btn-txt">Check Out The Code</a></button>
+        <button class="gallery-code"><a href="http://sharonfrajlich.com" class="gal-btn-txt">Check Out The Site</a></button>
+        <div class="gallery-still">
+          <img src="/images/sharonsite.png" class="gall">
+        </div>
+      </div>
+      <div class="gallery-cont-2">
+        <h1 class="gallery-header">Alaska Velo Sport</h1>
+        <p class="gallery-p">Web Site</p>
+        <button class="gallery-code"><a href="http://github.com/lindsgil" class="gal-btn-txt">Check Out The Code</a></button>
+        <button class="gallery-code"><a href="http://alaskavelosport.com" class="gal-btn-txt">Check Out The Site</a></button>
+        <div class="gallery-still">
+          <img src="/images/sharonsite.png" class="gall">
+        </div>
+      </div>
+      <div class="gallery-cont-2">
+        <h1 class="gallery-header">Fight Code</h1>
+        <p class="gallery-p">JavaScript coding syntax challenge</p>
+        <button class="gallery-code"><a href="http://github.com/lindsgil" class="gal-btn-txt">Check Out The Code</a></button>
+        <button class="gallery-code"><a href="http://sharonfrajlich.com" class="gal-btn-txt">Check Out The Site</a></button>
+        <div class="gallery-still">
+          <img src="/images/sharonsite.png" class="gall">
+        </div>
+      </div>
+    </section>
     <!--START: Contact page for portfolio -->
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!--add script tag to link handlebars.js under jquery link-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
