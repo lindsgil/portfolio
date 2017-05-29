@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lindsay Gilbert</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/modules.css">
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <!--Add Script tag for Handlebars.js-->
+    <!-- <script  id="work-display-template" type="text/x-handlebars-template">
+      <article class="clearfix" data-title="{{title}}" data-category="{{category}}">
+        <header>
+          <h1>{{title}}</h1>
+          <div class="linkline">
+            <p>{{siteUrl}}</p>
+          </div>
+        </header>
+        <section class="site-info">{{{info}}}</section>
+    </article>
+    </script> -->
+  </head>
+  <body>
+    <!--START: top nav bar menu with links and social icons-->
+    <!--START: header hero image under nav bar for title -->
+    <section class="header-image">
+      <header class="top-nav">
+        <ul class="top-site-nav">
+        <!-- <li class="site-nav-left" id="name-logo">Linds</li> -->
+          <li class="site-nav" id="contact-nav"><a href="./contact.html" class="site-nav" id="contact-nav">// Contact</a></li>
+          <li class="site-nav" id="work-nav"><a href="./index.html" class="site-nav" id="work-nav">// Work</a></li>
+          <li class="site-nav" id="about-nav"><a href="#" class="site-nav" id="about-nav">// About</a></li>
+        </ul>
+      </header>
+      <div class="contact-text">
+        <h1 class="contact"> Hello!</h1>
+        <p class="contact-p">If you are interested in working on a project or would like to say hello, E-mail me at</p>
+        <h2 class="email-line">lindsaygilbert722@gmail.com</h2>
+      </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--add script tag to link handlebars.js under jquery link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+    <script type="text/javascript" src="scripts/siteData.js"></script>
+    <script>
+      Site.fetchAll();
+    </script>
+  </body>
+</html>

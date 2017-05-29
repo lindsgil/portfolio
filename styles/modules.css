@@ -8,6 +8,22 @@ section.header-image {
   height: 55vw;
   width: 100%;
 }
+header.top-nav {
+  height: 6vw;
+  background-color: rgba(255,255,255,0.3);
+  top: 0;
+  position: fixed;
+  z-index: 99999999;
+  float: right;
+  width: 100%;
+}
+div.contact-text {
+  background-color: rgba(255,255,255,0);
+  margin: 23vw auto;
+  position: relative;
+  text-align: center;
+  color: white;
+}
 ul.top-site-nav {
   margin-top: 0;
 }
@@ -71,17 +87,43 @@ section.work-flow {
   position: relative;
 }
 div.gallery-cont{
-  background-image: url('../images/editing.jpeg');
+  background-image: url('../images/IMG_4788.jpg');
   margin-top: 60vw;
   position: relative;
-  height: 30vw;
+  height: 50vw;
   width: 100%;
+  color: white;
   overflow: scroll;
   background-repeat: no-repeat;
 }
+div.gal-text-box {
+  background-color: rgba(200, 216, 251, 0.9);
+  width: 50vw;
+  float: left;
+  margin-left: 3vw;
+  margin-top: 5vw;
+  margin-bottom: auto;
+}
+div.gal-text-box-din {
+  background-color: rgba(222, 82, 85, 0.9);
+  width: 50vw;
+  color: white;
+  float: left;
+  margin-left: 3vw;
+  margin-top: 5vw;
+  margin-bottom: auto;
+}
+h1.gallery-header {
+  text-align: left;
+  margin-left: 2vw;
+}
+p.gallery-p {
+  text-align: left;
+  margin-left: 2vw;
+}
 
 div.gallery-cont-2{
-  background-color: rgba(128, 29, 81, 0.8);
+  background-image: url('../images/popcorn.jpg');
   margin-top: 10vw;
   position: relative;
   height: 30vw;
@@ -101,17 +143,31 @@ img.gall {
 }
 
 button.gallery-code {
-  background-color: #940E8E;
-  color: #ffffff;
+  background-color: #81A5F6;
+  color: #263149;
   display: inline;
   float: none;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+  border-radius: 1vw;
+  border: none;
+}
+button.gallery-code-din {
+  background-color: #ce272b;
+  color: #5b1113;
+  display: inline;
+  float: none;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+  border-radius: 1vw;
+  border: none;
+}
+a {
+  text-decoration: none !important;
+  color: #000000;
 }
 a.btn-gal-txt {
   color: #ffffff;
   text-decoration: none !important;
-}
-
-button {
-  display: none;
-  float: right;
+  text-align: center;
 }
