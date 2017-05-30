@@ -1,67 +1,12 @@
 * {
   font-family: Helvetica;
 }
-div.main-nav {
-  left: 0;
-  top: 0;
-  margin: 0 auto;
-  position: fixed;
-  height: 25%;
-  width: 100%;
-  background: white;
-  z-index: 999;
-  overflow: hidden;
-  display: inline-block;
-  background-color: red;
+body{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
-section#site-display {
-  display: inline;
-  float: right;
-  position: relative;
-  height: 500px;
-  width: 500px;
-  margin-top: 150px;
-  background-color: white;
-}
-
-.projects {
-  width: 500px;
-  height: 500px;
-  display: block;
-}
-
-li.site-nav {
-  font-family: Helvetica bold;
-  text-decoration: none;
-  color: black;
-}
-
-a:link {
-  text-decoration: none;
-  color: black;
-}
-a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-a:focus {
-  text-decoration: none;
-  color: black;
-}
-div.about-box {
-  display: none;
-  font-family: Helvetica bold;
-  color: black;
-  height: 400px;
-  width: 400px;
-  margin: 250px auto;
-  margin-left: 700px;
-  text-align: center;
-  background-color: white;
-  border: 2px solid black;
-}
-img.about-pic {
-  width: 200px;
-  height: auto;
+.gallery-still {
+  height: 10vw;
+  width: 10vw;
 }

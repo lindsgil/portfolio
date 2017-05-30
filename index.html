@@ -2,67 +2,76 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="vendor/styles/normalize.css">
+    <title>Lindsay Gilbert</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <!--Add Script tag for Handlebars.js-->
-    <script  id="work-display-template" type="text/x-handlebars-template"></script>
-      <header>
-      <article class="clearfix" data-title="{{title}}" data-category="{{category}}">
-
-          <h1>{{title}}</h1>
-          <div class="linkline">
-            <p>{{siteUrl}}</p>
-          </div>
-
-        <section class="site-info">{{{info}}}</section>
-    </article>
-    </header>
   </head>
   <body>
     <!--START: top nav bar menu with links and social icons-->
-    <div class="main-nav">
-      <!--Hamburger Menu for mobile-->
-      <button type="button" class="hamburger" name="button-menu">&#9776</button>
-        <ul>
-          <li class="site-nav" id="about-nav"><a href="#" id="about-nav">About</a></li>
-          <li class="site-nav" id="work-nav"><a href="#" id="work-nav">Work</a></li>
-          <li class="site-nav" id="contact-nav"><a href="#" id="contact-nav">Contact</a></li>
-          <li class="social-icons" id="ig-icon"><a href="#" id="ig-icon">IG</a></li>
-          <li class="social-icons" id="gh-icon"><a href="https://github.com/lindsgil" id="gh-icon">GH</a></li>
-          <li class="social-icons" id="gmail-icon"><a href="#" id="gmail-icon">GMail</a></li>
+    <!--START: header hero image under nav bar for title -->
+    <section class="header-image">
+      <header class="top-nav">
+        <ul class="top-site-nav">
+        <!-- <li class="site-nav-left" id="name-logo">Linds</li> -->
+          <li class="site-nav" id="contact-nav"><a href="./contact.html" class="site-nav" id="contact-nav">// Contact</a></li>
+          <li class="site-nav" id="work-nav"><a href="#" class="site-nav" id="work-nav">// Work</a></li>
+          <li class="site-nav" id="about-nav"><a href="./about.html" class="site-nav" id="about-nav">// About</a></li>
         </ul>
-    </div>
-    <!--START: landing page for portfolio, will contain About Text Box-->
-    <div class="about-box">
-      <section id="about-text-box">
-        <h1>Lindsay Gilbert</h1>
-        <img src="images/lindsay.png" class="about-pic">
-        <p>Hi! I'm Lindsay.</p>
-      </section>
-    </div>
-    <!--START: Sample work page for portfolio -->
-    <section id="site-display">
-      <div class="temporary">
+      </header>
+    </section>
+    <!--START: Work header for gallery display -->
+    <!--START: Single row gallery display -->
+    <section class= "work-flow">
+      <div class="gallery-cont">
+        <div class="gal-text-box">
+          <h1 class="gallery-header">Portfolio Site</h1>
+          <p class="gallery-p">Mobile first, responsive site designed and developed for a Copy-Editor at Starbucks.
+          <br><br>CSS3, HTML5, JavaScript</br></br></p>
+          <button class="gallery-code"><a href="https://github.com/lindsgil/sharon-site" class="gal-btn-txt">Check Out The Code</a></button>
+          <button class="gallery-code"><a href="http://sharonfrajlich.com" class="gal-btn-txt">Check Out The Site</a></button>
+        </div>
       </div>
-      <div class="busmall" class="projects">
+      <div class="gallery-cont-2">
+        <div class="gal-text-box-din">
+          <h1 class="gallery-header">Dinner And A Movie</h1>
+          <p class="gallery-p">Web Application utilizing the Google Maps API to populate movie theaters and corresponding restaurants within a half-mile radius.
+          <br><br>CSS3, HTML5, AJAX requests using jQuery</br></br></p>
+          <button class="gallery-code-din"><a href="https://github.com/brisourceful/dinner-and-a-movie" class="gal-btn-txt">Check Out The Code</a></button>
+          <button class="gallery-code-din"><a href="https://dinner-and-a-movie.herokuapp.com/" class="gal-btn-txt">Check Out The App</a></button>
+        </div>
       </div>
-      <div class="salmon-cookies" class="projects">
+      <div class="gallery-cont-3">
+        <div class="gal-text-box">
+          <h1 class="gallery-header">Business Time</h1>
+          <p class="gallery-p">Back-end of an iOS app that stores user profiles and user created business cards. Future functionality will include a sync with the MeetUp API.
+          <br><br>NodeJS, MongoDB, JavaScript, Test Driven Development using Express</br></br></p>
+          <button class="gallery-code"><a href="https://github.com/CF-JS-iOS-G-5/javascript-back-end" class="gal-btn-txt">Check Out The Code</a></button>
+        </div>
       </div>
-      <div class="fight-code" class="projects">
+      <div class="gallery-cont-4">
+        <div class="gal-text-box-bike">
+          <h1 class="gallery-header">Alaska Velo Sport</h1>
+          <p class="gallery-p">Mobile first, responsive site designed with Bootstrap for Alaska Velo Sport Bicycle Shop.
+          <br><br>CSS3, HTML5, Bootstrap</br></br></p>
+          <button class="gallery-code"><a href="https://github.com/antmachine/alaskavelosport" class="gal-btn-txt">Check Out The Code</a></button>
+          <button class="gallery-code"><a href="http://alaskavelosport.com" class="gal-btn-txt">Check Out The Site</a></button>
+        </div>
       </div>
-      <div class="milkway" class="projects">
-      </div>
-      <div class="cari-gill" class="projects">
-      </div>
-      <div class="rachel-hubbard" class="projects">
+      <div class="gallery-cont-5">
+        <div class="gal-text-box">
+          <h1 class="gallery-header">Fight Code</h1>
+          <p class="gallery-p">JavaScript specific coding syntax challenge
+          <br><br>CSS3, HTML5, JavaScript</br></br></p>
+          <button class="gallery-code"><a href="https://github.com/ChristopherSClosser/fight-code" class="gal-btn-txt">Check Out The Code</a></button>
+        </div>
       </div>
     </section>
     <!--START: Contact page for portfolio -->
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!--add script tag to link handlebars.js under jquery link-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
