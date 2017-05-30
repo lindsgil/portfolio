@@ -24,6 +24,12 @@ div.contact-text {
   text-align: center;
   color: white;
 }
+p.contact-p{
+  font-size: 1.5vw;
+}
+h2.email-line {
+  font-size: 2vw;
+}
 ul.top-site-nav {
   margin-top: 0;
 }
@@ -47,6 +53,13 @@ a.site-nav {
   font-size: 3vw;
   margin-top: 0;
 
+}
+a.about-link {
+  text-decoration: none !important;
+  color: #ffffff !important;
+  font-family: Helvetica;
+  font-size: 1.5vw;
+  padding-right: 3vw;
 }
 
 h1.work-header {
@@ -142,6 +155,34 @@ p.gallery-p {
   font-family: Helvetica;
   text-align: left;
   margin-left: 2vw;
+  color: white;
+  padding-right: 2vw;
+}
+h1.contact {
+  text-align: center;
+  font-size: 2vw;
+}
+div.about-text {
+  background-color: rgba(255,255,255,0);
+  margin: 15vw auto;
+  margin-bottom: 10vw;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+h1, h2.about-header {
+  font-family: Helvetica;
+  text-align: left;
+  font-size: 2vw;
+  margin-left: 2vw;
+  color: white;
+  padding-right: 2vw;
+}
+p.about-p {
+  font-family: Helvetica;
+  text-align: left;
+  margin-left: 2vw;
+  font-size: 1.5vw;
   color: white;
   padding-right: 2vw;
 }
