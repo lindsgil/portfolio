@@ -87,7 +87,7 @@ section.work-flow {
   position: relative;
 }
 div.gallery-cont{
-  background-image: url('../images/IMG_4788.jpg');
+  background-image: url('../images/IMG_4801.jpg');
   margin-top: 60vw;
   position: relative;
   height: 50vw;
@@ -113,17 +113,68 @@ div.gal-text-box-din {
   margin-top: 5vw;
   margin-bottom: auto;
 }
+div.gal-text-box-bike {
+  background-color: rgba(222, 82, 85, 0.9);
+  width: 50vw;
+  color: white;
+  float: left;
+  margin-left: 3vw;
+  margin-top: 5vw;
+  margin-bottom: auto;
+}
+div.gal-text-box-plant {
+  background-color: rgba(222, 82, 85, 0.9);
+  width: 50vw;
+  color: white;
+  float: left;
+  margin-left: 3vw;
+  margin-top: 5vw;
+  margin-bottom: auto;
+}
 h1.gallery-header {
+  font-family: Helvetica;
   text-align: left;
   margin-left: 2vw;
+  color: white;
+  padding-right: 2vw;
 }
 p.gallery-p {
+  font-family: Helvetica;
   text-align: left;
   margin-left: 2vw;
+  color: white;
+  padding-right: 2vw;
 }
 
 div.gallery-cont-2{
   background-image: url('../images/popcorn.jpg');
+  margin-top: 10vw;
+  position: relative;
+  height: 30vw;
+  width: 100%;
+  overflow: scroll;
+  background-repeat: no-repeat;
+}
+div.gallery-cont-3{
+  background-image: url('../images/plants.png');
+  margin-top: 10vw;
+  position: relative;
+  height: 30vw;
+  width: 100%;
+  overflow: scroll;
+  background-repeat: no-repeat;
+}
+div.gallery-cont-4{
+  background-image: url('../images/bike.jpg');
+  margin-top: 10vw;
+  position: relative;
+  height: 30vw;
+  width: 100%;
+  overflow: scroll;
+  background-repeat: no-repeat;
+}
+div.gallery-cont-5{
+  background-image: url('../images/biz.jpg');
   margin-top: 10vw;
   position: relative;
   height: 30vw;
