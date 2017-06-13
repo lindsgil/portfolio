@@ -224,6 +224,116 @@ div.gallery-cont-5{
   background-repeat: no-repeat;
 }
 
+/*Media Queries*/
+@media only screen and (max-width:500px) {
+  div.gallery-cont{
+    background-image: none;
+    margin-top: 60vw;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: white;
+    overflow: scroll;
+    background-repeat: no-repeat;
+  }
+  div.gallery-cont-2{
+    background-image: none;
+    margin-top: 10vw;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    background-repeat: no-repeat;
+  }
+  div.gallery-cont-3{
+    background-image: none;
+    margin-top: 10vw;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    background-repeat: no-repeat;
+  }
+  div.gallery-cont-4{
+    background-image: none;
+    margin-top: 10vw;
+    position: relative;
+    height: 30vw;
+    width: 100%;
+    overflow: scroll;
+    background-repeat: no-repeat;
+  }
+  div.gallery-cont-5{
+    background-image: none;
+    margin-top: 10vw;
+    position: relative;
+    height: 30vw;
+    width: 100%;
+    overflow: scroll;
+    background-repeat: no-repeat;
+  }
+  div.gal-text-box {
+    background-color: rgba(190, 144, 249, 0.9);
+    width: 100%;
+    float: none;
+    margin-left: 3vw;
+    margin-top: 5vw;
+    margin-right: 3vw;
+    margin-bottom: auto;
+  }
+  div.gal-text-box-din {
+    background-color: rgba(190, 144, 249, 0.9);
+    width: 100%;
+    color: white;
+    float: none;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 5vw;
+    margin-bottom: auto;
+  }
+  div.gal-text-box-bike {
+    background-color: rgba(190, 144, 249, 0.9);
+    width: 100%;
+    color: white;
+    float: none;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 5vw;
+    margin-bottom: auto;
+  }
+  div.gal-text-box-plant {
+    background-color: rgba(222, 82, 85, 0.9);
+    width: 100%;
+    color: white;
+    float: none;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 5vw;
+    margin-bottom: auto;
+  }
+
+  button.gallery-code {
+    background-color: #9E52F6;
+    color: #263149;
+    display: inline;
+    float: none;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    border-radius: 1vw;
+    border: none;
+  }
+  button.gallery-code-din {
+    background-color: #9E52F6;
+    color: #5b1113;
+    display: inline;
+    float: none;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    border-radius: 1vw;
+    border: none;
+  }
+}
+
 div.gallery-still {
   float: right;
   display: block;
