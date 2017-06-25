@@ -280,6 +280,13 @@ a.btn-gal-txt {
     top: 0;
     left:0;
   }
+  body {
+    /*placeholder image*/
+    background-image: url('../images/plants.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+  }
   h1.mob-nav-header {
     font-size: 5vw;
     color: white;
@@ -307,12 +314,12 @@ a.btn-gal-txt {
   }
   .hamburger-menu-list {
   z-index: 999999 !important;
-  margin-top: 15vw;
+  margin-top: 5vw;
   font-weight:bold;
   font-size: 3vw;
   width: 50%;
-  background: rgba(251,210,200,0.8);
-  font-family: Didot bold;
+  background: rgba(153, 153, 153, 0.9);
+  font-family: Helvetica bold;
   display: block;
   text-align: center;
   float: right;
@@ -320,14 +327,14 @@ a.btn-gal-txt {
 .hamburger-menu-list ul {
   list-style-type: none;
   list-style-image: none;
-  color: black;
+  color: #fff;
   padding: 1vw;
   z-index: 99999;
 }
 .hamburger-menu-list li {
   display: block;
   /*border-bottom:#FBD2C8 1px solid;*/
-  color: black;;
+  color: #fff;
   padding: 3vw;
   z-index: 99999;
 }
@@ -407,24 +414,24 @@ a.btn-gal-txt {
   }
   div.gallery-cont-4{
     background-image: none;
-    background-color: rgba(190, 144, 249, 1);
+    background-color: none;
     margin-top: 10vw;
     position: relative;
-    height: 30vw;
+    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
   }
   div.gallery-cont-5{
     background-image: none;
-    background-color: rgba(190, 144, 249, 1);
+    background-color: none;
     margin-top: 10vw;
     position: relative;
-    height: 30vw;
+    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
   }
   div.gal-text-box {
-    background-color: rgba(190, 144, 249, 1);
+    background-color: #000;
     width: 100%;
     height: 100%;
     float: none;
@@ -434,7 +441,7 @@ a.btn-gal-txt {
     margin-bottom: auto;
   }
   div.gal-text-box-din {
-    background-color: rgba(190, 144, 249, 1);
+    background-color: #000;
     width: 100%;
     height: 100%;
     float: none;
@@ -444,7 +451,7 @@ a.btn-gal-txt {
     margin-bottom: auto;
   }
   div.gal-text-box-bike {
-    background-color: rgba(190, 144, 249, 1);
+    background-color: #000;
     width: 100%;
     height: 100%;
     float: none;
@@ -454,7 +461,7 @@ a.btn-gal-txt {
     margin-bottom: auto;
   }
   div.gal-text-box-plant {
-    background-color: rgba(190, 144, 249, 1);
+    background-color: #000;
     width: 100%;
     height: 100%;
     float: none;
@@ -465,7 +472,7 @@ a.btn-gal-txt {
   }
 
   button.gallery-code {
-    background-color: #992FB7;
+    background-color: #999;
     color: #ffffff;
     display: inline;
     float: none;
@@ -475,7 +482,7 @@ a.btn-gal-txt {
     border: none;
   }
   button.gallery-code-din {
-    background-color: #992FB7;
+    background-color: #999;
     color: #ffffff;
     display: inline;
     float: none;
