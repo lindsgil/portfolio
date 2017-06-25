@@ -8,6 +8,9 @@ section.header-image {
   height: 55vw;
   width: 100%;
 }
+div.about-text-mobile {
+  display: none;
+}
 section.mobile-nav-bar {
   display: none;
 }
@@ -271,6 +274,7 @@ a.btn-gal-txt {
 /*Media Queries*/
 @media only screen and (max-width:500px) {
   section.mobile-nav-bar {
+    z-index: 9999999;
     height: 15vw;
     background-color: black;
     margin-top: 0vw;
