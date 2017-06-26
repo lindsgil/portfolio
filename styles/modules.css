@@ -531,6 +531,25 @@ li#work-link {
     border-bottom: 1px solid black;
     width: 90%;
   }
+  .contact-text-mobile {
+    color: black;
+    margin: 20vw auto;
+    border-bottom: 1px solid black;
+    width: 90%;
+  }
+  h1.contact-mobile {
+    color: black;
+    padding: 2vw;
+    font-size: 8vw;
+    text-align: center;
+  }
+  h2.email-line-mobile {
+    text-align: center;
+    font-size: 6vw;
+  }
+  .contact-p-mobile {
+    text-align: center;
+  }
   .about-p-mobile {
     padding: 2vw;
   }
