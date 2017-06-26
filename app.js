@@ -1,6 +1,7 @@
 'use strict';
 
 $('.hamburger-menu-list').hide();
+$('.about-text-mobile').hide();
 $('.hamburger-button').click(function() {
   $('div.panel-content').fadeOut('slow');
   $('.hamburger-menu-list').fadeIn('fast', function() {
@@ -10,13 +11,14 @@ $('.hamburger-button').click(function() {
 
 $('#about-link').click(function() {
   $('.hamburger-menu-list').fadeOut('fast');
-  $('#work-flow').fadeOut('fast');
-  $('#about-text-mobile').fadeIn('slow');
+  $('.about-text-mobile').fadeIn('slow', function() {
+
+  });
 });
 
 $('#work-link').click(function() {
   $('.hamburger-menu-list').fadeOut('fast');
-  $('#work-cont').fadeIn();
+  $('.about-text-mobile').fadeOut('fast');
 });
 
 $('#contact-link').click(function() {
